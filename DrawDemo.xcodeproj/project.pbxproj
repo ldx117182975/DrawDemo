@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2EA9F1915D3882400E33AF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EA9F1815D3882400E33AF8 /* UIKit.framework */; };
+		B2EA9F1B15D3882400E33AF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EA9F1A15D3882400E33AF8 /* Foundation.framework */; };
+		B2EA9F1D15D3882400E33AF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EA9F1C15D3882400E33AF8 /* CoreGraphics.framework */; };
+		B2EA9F2315D3882400E33AF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2EA9F2115D3882400E33AF8 /* InfoPlist.strings */; };
+		B2EA9F2515D3882400E33AF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EA9F2415D3882400E33AF8 /* main.m */; };
+		B2EA9F2915D3882400E33AF8 /* losAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EA9F2815D3882400E33AF8 /* losAppDelegate.m */; };
+		B2EA9F2C15D3882400E33AF8 /* losViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EA9F2B15D3882400E33AF8 /* losViewController.m */; };
+		B2EA9F2F15D3882400E33AF8 /* losViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2EA9F2D15D3882400E33AF8 /* losViewController_iPhone.xib */; };
+		B2EA9F3215D3882400E33AF8 /* losViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2EA9F3015D3882400E33AF8 /* losViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2EA9F1415D3882400E33AF8 /* DrawDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EA9F1815D3882400E33AF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2EA9F1A15D3882400E33AF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2EA9F1C15D3882400E33AF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2EA9F2015D3882400E33AF8 /* DrawDemo-Info.plist */ = {isa = PBXFileReference; path = "DrawDemo-Info.plist"; sourceTree = "<group>"; };
+		B2EA9F2215D3882400E33AF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2EA9F2415D3882400E33AF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2EA9F2615D3882400E33AF8 /* DrawDemo-Prefix.pch */ = {isa = PBXFileReference; path = "DrawDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B2EA9F2715D3882400E33AF8 /* losAppDelegate.h */ = {isa = PBXFileReference; path = losAppDelegate.h; sourceTree = "<group>"; };
+		B2EA9F2815D3882400E33AF8 /* losAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = losAppDelegate.m; sourceTree = "<group>"; };
+		B2EA9F2A15D3882400E33AF8 /* losViewController.h */ = {isa = PBXFileReference; path = losViewController.h; sourceTree = "<group>"; };
+		B2EA9F2B15D3882400E33AF8 /* losViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = losViewController.m; sourceTree = "<group>"; };
+		B2EA9F2E15D3882400E33AF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/losViewController_iPhone.xib; sourceTree = "<group>"; };
+		B2EA9F3115D3882400E33AF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/losViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2EA9F1115D3882400E33AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EA9F1915D3882400E33AF8 /* UIKit.framework in Frameworks */,
+				B2EA9F1B15D3882400E33AF8 /* Foundation.framework in Frameworks */,
+				B2EA9F1D15D3882400E33AF8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2EA9F0915D3882400E33AF8 = {
+			isa = PBXGroup;
+			children = (
+				B2EA9F1E15D3882400E33AF8 /* DrawDemo */,
+				B2EA9F1715D3882400E33AF8 /* Frameworks */,
+				B2EA9F1515D3882400E33AF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2EA9F1515D3882400E33AF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2EA9F1415D3882400E33AF8 /* DrawDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2EA9F1715D3882400E33AF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2EA9F1815D3882400E33AF8 /* UIKit.framework */,
+				B2EA9F1A15D3882400E33AF8 /* Foundation.framework */,
+				B2EA9F1C15D3882400E33AF8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2EA9F1E15D3882400E33AF8 /* DrawDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B2EA9F2715D3882400E33AF8 /* losAppDelegate.h */,
+				B2EA9F2815D3882400E33AF8 /* losAppDelegate.m */,
+				B2EA9F2A15D3882400E33AF8 /* losViewController.h */,
+				B2EA9F2B15D3882400E33AF8 /* losViewController.m */,
+				B2EA9F2D15D3882400E33AF8 /* losViewController_iPhone.xib */,
+				B2EA9F3015D3882400E33AF8 /* losViewController_iPad.xib */,
+				B2EA9F1F15D3882400E33AF8 /* Supporting Files */,
+			);
+			path = DrawDemo;
+			sourceTree = "<group>";
+		};
+		B2EA9F1F15D3882400E33AF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2EA9F2015D3882400E33AF8 /* DrawDemo-Info.plist */,
+				B2EA9F2115D3882400E33AF8 /* InfoPlist.strings */,
+				B2EA9F2415D3882400E33AF8 /* main.m */,
+				B2EA9F2615D3882400E33AF8 /* DrawDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2EA9F1315D3882400E33AF8 /* DrawDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EA9F3515D3882400E33AF8 /* Build configuration list for PBXNativeTarget "DrawDemo" */;
+			buildPhases = (
+				B2EA9F1015D3882400E33AF8 /* Sources */,
+				B2EA9F1115D3882400E33AF8 /* Frameworks */,
+				B2EA9F1215D3882400E33AF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawDemo;
+			productName = DrawDemo;
+			productReference = B2EA9F1415D3882400E33AF8 /* DrawDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2EA9F0B15D3882400E33AF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B2EA9F0E15D3882400E33AF8 /* Build configuration list for PBXProject "DrawDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2EA9F0915D3882400E33AF8;
+			productRefGroup = B2EA9F1515D3882400E33AF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2EA9F1315D3882400E33AF8 /* DrawDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2EA9F1215D3882400E33AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EA9F2315D3882400E33AF8 /* InfoPlist.strings in Resources */,
+				B2EA9F2F15D3882400E33AF8 /* losViewController_iPhone.xib in Resources */,
+				B2EA9F3215D3882400E33AF8 /* losViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2EA9F1015D3882400E33AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EA9F2515D3882400E33AF8 /* main.m in Sources */,
+				B2EA9F2915D3882400E33AF8 /* losAppDelegate.m in Sources */,
+				B2EA9F2C15D3882400E33AF8 /* losViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2EA9F2115D3882400E33AF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2EA9F2215D3882400E33AF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2EA9F2D15D3882400E33AF8 /* losViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2EA9F2E15D3882400E33AF8 /* en */,
+			);
+			name = losViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		B2EA9F3015D3882400E33AF8 /* losViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2EA9F3115D3882400E33AF8 /* en */,
+			);
+			name = losViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2EA9F3315D3882400E33AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2EA9F3415D3882400E33AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2EA9F3615D3882400E33AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawDemo/DrawDemo-Prefix.pch";
+				INFOPLIST_FILE = "DrawDemo/DrawDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2EA9F3715D3882400E33AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawDemo/DrawDemo-Prefix.pch";
+				INFOPLIST_FILE = "DrawDemo/DrawDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2EA9F0E15D3882400E33AF8 /* Build configuration list for PBXProject "DrawDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EA9F3315D3882400E33AF8 /* Debug */,
+				B2EA9F3415D3882400E33AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EA9F3515D3882400E33AF8 /* Build configuration list for PBXNativeTarget "DrawDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EA9F3615D3882400E33AF8 /* Debug */,
+				B2EA9F3715D3882400E33AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2EA9F0B15D3882400E33AF8 /* Project object */;
+}
